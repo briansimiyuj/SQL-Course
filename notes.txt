@@ -1,0 +1,13 @@
+SQL stands for Structured Query Language.
+It is used to Create, Retrieve, Update and Delete data in a database.
+
+There are two types of databases: Relational and Non-Relational.
+
+Relational databases store data in tables with rows and columns. 
+Non-Relational databases store data in a more flexible format, such as key-value pairs or documents.
+
+SQL is a relational database language that allows us to query and manipulate data in a relational database.
+
+To use SQL, we need to connect to a database using a database management system (DBMS) like MySQL, PostgreSQL, or SQLite.
+
+In this course, we will be using MySQL as our DBMS.
