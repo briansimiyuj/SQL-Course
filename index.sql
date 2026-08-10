@@ -1,1 +1,1 @@
-RENAME TABLE employees TO users;
+DROP TABLE IF EXISTS users;

@@ -1,2 +1,2 @@
-To rename a table, we use the following command:
-    `RENAME TABLE $old_table_name TO $new_table_name;`
+To delete a table, we use the following command:
+    `DROP TABLE IF EXIST table_name;`
