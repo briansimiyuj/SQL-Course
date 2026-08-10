@@ -1,4 +1,11 @@
-Sometimes running SQL commands in the terminal is not the best way to interact with a database. We need .sql files to be able to run multiple commands at once.
+To create a table, we use the following syntax:
 
-Once you have created a .sql file, you can run it in the terminal using the following command:
-    `"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -p ${database_name} < ${file_name}.sql`
+    `CREATE TABLE ${tableName}(
+
+        ${column1} ${dataType1},
+        ${column2} ${dataType2},
+        ${column3} ${dataType3},
+        ...
+        ${columnN} ${dataTypeN}
+
+    );`
