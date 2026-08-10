@@ -1,12 +1,13 @@
-We need to download MySQL, go to mysql.com/downloads and download the MySQL Community Server
-Once the installer is downloaded, run it and follow the instructions to install MySQL
-    1. Choose Custom Setup Type 
-    2. Choose the MySQL Server 
+To show all databases, use;
+    SHOW DATABASES;
 
-Once the MySQL Server is installed, we need to start the MySQL Server. Run the following command as an administrator:
-    `C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -p`
+To create a database, use;
+    CREATE DATABASE ${database_name};
 
-Then put in the password for the root user
+To use a database, use;
+    USE ${database_name};
 
-You should see:
-    mysql> ${ MySQL command will go here }
+To delete a database, use;
+    DROP DATABASE ${database_name};
+
+NB: Never forget to use the semicolon (;) at the end of each SQL statement.
