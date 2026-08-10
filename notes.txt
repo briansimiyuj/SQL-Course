@@ -1,11 +1,2 @@
-To create a table, we use the following syntax:
-
-    `CREATE TABLE ${tableName}(
-
-        ${column1} ${dataType1},
-        ${column2} ${dataType2},
-        ${column3} ${dataType3},
-        ...
-        ${columnN} ${dataTypeN}
-
-    );`
+To select a table, we use the following command:
+    `SELECT * FROM ${tableName};`
