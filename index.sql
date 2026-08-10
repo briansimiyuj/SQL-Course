@@ -1,1 +1,1 @@
-SELECT * FROM employees;
+RENAME TABLE employees TO users;

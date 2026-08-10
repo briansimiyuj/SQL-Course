@@ -1,2 +1,2 @@
-To select a table, we use the following command:
-    `SELECT * FROM ${tableName};`
+To rename a table, we use the following command:
+    `RENAME TABLE $old_table_name TO $new_table_name;`
