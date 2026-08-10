@@ -1,2 +1,4 @@
-To delete a table, we use the following command:
-    `DROP TABLE IF EXIST table_name;`
+To add a column to a table, we use the following command:
+    `ALTER TABLE $table_name;
+
+    ADD $column_name $column_type;`
