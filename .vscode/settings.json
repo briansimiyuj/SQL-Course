@@ -12,7 +12,7 @@
             "driver": "MySQL",
             "name": "My Local MySQL",
             "username": "root",
-            "database": "MyFirstSQLDB"
+            "database": "SQL_Course"
         }
     ]
 }
