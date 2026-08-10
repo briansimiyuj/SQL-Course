@@ -1,13 +1,12 @@
-SQL stands for Structured Query Language.
-It is used to Create, Retrieve, Update and Delete data in a database.
+We need to download MySQL, go to mysql.com/downloads and download the MySQL Community Server
+Once the installer is downloaded, run it and follow the instructions to install MySQL
+    1. Choose Custom Setup Type 
+    2. Choose the MySQL Server 
 
-There are two types of databases: Relational and Non-Relational.
+Once the MySQL Server is installed, we need to start the MySQL Server. Run the following command as an administrator:
+    `C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -p`
 
-Relational databases store data in tables with rows and columns. 
-Non-Relational databases store data in a more flexible format, such as key-value pairs or documents.
+Then put in the password for the root user
 
-SQL is a relational database language that allows us to query and manipulate data in a relational database.
-
-To use SQL, we need to connect to a database using a database management system (DBMS) like MySQL, PostgreSQL, or SQLite.
-
-In this course, we will be using MySQL as our DBMS.
+You should see:
+    mysql> ${ MySQL command will go here }
