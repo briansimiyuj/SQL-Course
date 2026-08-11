@@ -1,3 +1,1 @@
-ALTER TABLE employees
-
-ADD email VARCHAR(255) NOT NULL UNIQUE; 
+SELECT * FROM employees
