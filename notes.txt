@@ -1,4 +1,7 @@
-To update data in a table, we use:
-    `UPDATE $table_name 
-    SET $column_name = $new_value
-    WHERE $condition;`
+To update multiple data in a table, we use:
+    `UPDATE table_name
+     SET $column1 = $value1,
+         $column2 = $value2,
+         ...
+     WHERE condition;`
+
