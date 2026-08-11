@@ -1,2 +1,2 @@
-To show all entries in the table, we use:
-    `SELECT * FROM $table_name;`
+To rename a column in a table, we use:
+    `ALTER TABLE $table_name RENAME COLUMN $old_column_name TO $new_column_name;`
