@@ -1,2 +1,11 @@
-To delete a column from a table; we use:
-    `ALTER TABLE $table_name DROP COLUMN $column_name;`
+To insert rows in a table; we use:
+    `INSERT INTO $table_name
+    VALUES ($column1, $column2, $column3, ...);`   
+
+Ensure the columns match the data types
+
+To insert multiple rows at once:
+    `INSERT INTO $table_name
+    VALUES ($column1, $column2, $column3, ...),
+    ($column1, $column2, $column3, ...),
+    ($column1, $column2, $column3, ...);`
