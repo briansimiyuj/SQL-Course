@@ -1,2 +1,5 @@
 To query or select certain columns from a table, we use:
     `SELECT $column_name1, $column_name2 FROM $table_name;`
+
+If we want to look for a specific value in a column, we use:
+    `SELECT * FROM $table_name WHERE $column_name = $value;`
