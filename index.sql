@@ -1,5 +1,5 @@
-INSERT INTO employees
+INSERT INTO employees (email, employee_id, first_name, last_name)
 
-VALUES ('mike@gmail.com', 6, 'Mike', 'Doe', '25.50', '2021-06-15', '0703220499'), ('mary@gmail.com', 7, 'Mary', 'Doe', '25.50', '2021-06-15', '0703220499'), ('jane@gmail.com', 1, 'Jane', 'Doe', '25.50', '2021-06-15', '0703220499'), ('joe@gmail.com', 3, 'Joe', 'Doe', '25.50', '2021-06-15', '0703220499'), ('jim@gmail.com', 4, 'Jim', 'Doe', '25.50', '2021-06-15', '0703220499'), ('jimmy@gmail.com', 5, 'Jimmy', 'Doe', '25.50', '2021-06-15', '0703220499');
+VALUES ('mike@gmail.com', 7, 'Mike', 'Doe');
 
 SELECT * FROM employees;
