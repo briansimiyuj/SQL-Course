@@ -1,3 +1,4 @@
-To edit the data type of a column in a table, we use:
+To move a column around the table, we use:
     `ALTER TABLE $table_name
-    MODIFY COLUMN $column_name $new_data_type;`
+    MODIFY $column_name_to_move $column_type
+    AFTER $column_name_after;`
