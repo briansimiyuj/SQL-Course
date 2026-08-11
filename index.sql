@@ -1,3 +1,3 @@
 ALTER TABLE employees
 
-RENAME COLUMN phone_number TO contact_number;
+MODIFY COLUMN email VARCHAR(100) NOT NULL;
