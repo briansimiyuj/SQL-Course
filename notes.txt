@@ -1,9 +1,2 @@
-To move a column around the table, we use:
-    `ALTER TABLE $table_name
-    MODIFY $column_name_to_move $column_type
-    AFTER $column_name_after;`
-
-To make a column the first column in the table, we use: 
-    `ALTER TABLE $table_name
-    MODIFY $column_name_to_move $column_type
-    FIRST;`
+To delete a column from a table; we use:
+    `ALTER TABLE $table_name DROP COLUMN $column_name;`

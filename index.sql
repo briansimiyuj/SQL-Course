@@ -1,7 +1,3 @@
 ALTER TABLE employees
 
-MODIFY COLUMN email VARCHAR(100)
-
-FIRST;
-
-SELECT * FROM employees;
+DROP COLUMN home_address;
