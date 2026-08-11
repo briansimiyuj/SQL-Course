@@ -1,2 +1,2 @@
-To query or select all the data from a table in SQL; we use:
-    SELECT * FROM $table_name
+To query or select certain columns from a table, we use:
+    `SELECT $column_name1, $column_name2 FROM $table_name;`
