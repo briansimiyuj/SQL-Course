@@ -1,11 +1,5 @@
-SELECT * FROM employees
+UPDATE employees
 
-WHERE first_name = 'John';
+SET hourly_rate = 10.25
 
-WHERE hourly_rate > 20;
-
-WHERE hire_date >= '2021-06-15';
-
-WHERE employee_id != 1;
-
-WHERE hire_date is NULL;
+WHERE employee_id = 7;
