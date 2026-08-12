@@ -6,3 +6,5 @@ If we want to add a unique constraint to a column, we can use the following:
         $column_name $data_type UNIQUE, 
 
     )`
+
+If we add same column name to the same table, it will throw an error.
