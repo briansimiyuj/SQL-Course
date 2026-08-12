@@ -1,11 +1,4 @@
-Not null constraint enables us to prevent null values in the column. To add a not null constraint, we use:
-    `ALTER TABLE $table_name
-    MODIFY $column_name $data_type NOT NULL;`
-
-To create a table with a not null constraint, we use:
-    `CREATE TABLE $table_name (
-        $column_name $data_type NOT NULL,
-        ...
-    );`
-
-If we add a column without a value, the database will throw an error. 
+Check constraint is used to enforce a condition on a column or a set of columns in a table. We can use:
+    `CREATE TABLE $table_name(
+        $column_name $data_type CONSTRAINT $constraint_name CHECK ($condition)
+    )`
