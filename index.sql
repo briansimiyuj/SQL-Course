@@ -1,3 +1,5 @@
-DELETE FROM employees
+SET AUTOCOMMIT = OFF;
 
-WHERE employee_id = 6
+ROLLBACK;
+
+COMMIT;

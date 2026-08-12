@@ -1,4 +1,15 @@
-To delete data from a table; we use:
-    `DELETE FROM $table_name WHERE $condition;`
+Let's say we deleted some data from the table by mistake, if we want to restore it, we can use the following command:
+    `SET AUTOCOMMIT = OFF;`
 
-Make sure to use the `WHERE` clause to specify the condition
+This creates a transaction that allows us to undo any changes we make to the database. 
+
+To undo the changes, we can use the following command:
+    `ROLLBACK;`
+
+This will undo all the changes made in the current transaction and restore the database to its previous state.
+
+If we want save the changes permanently, we can use the following command:
+    `COMMIT;`
+
+This will save all the changes made in the current transaction and make them permanent.
+
