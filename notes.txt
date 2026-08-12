@@ -1,6 +1,3 @@
-Check constraint is used to enforce a condition on a column or a set of columns in a table. We can use:
-    `CREATE TABLE $table_name(
-        $column_name $data_type CONSTRAINT $constraint_name CHECK ($condition)
-    )`
-
-If we try to insert a row that violates the check constraint, the database will reject the operation 
+To delete a check constraint; we use:
+    `ALTER TABLE $table_name
+    DROP CONSTRAINT $constraint_name;`

@@ -1,3 +1,3 @@
-INSERT INTO TABLE productss
+ALTER TABLE productss
 
-VALUES (1, 'Iphone 13')
+DROP CONSTRAINT productss_price
