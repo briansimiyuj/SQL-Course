@@ -7,3 +7,5 @@ To create a table with a not null constraint, we use:
         $column_name $data_type NOT NULL,
         ...
     );`
+
+If we add a column without a value, the database will throw an error. 

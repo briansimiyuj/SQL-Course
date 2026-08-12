@@ -1,3 +1,4 @@
-ALTER TABLE products
+INSERT INTO products
 
-MODIFY COLUMN product_price DECIMAL(10, 2) NOT NULL;
+VALUES
+(7, 'Wireless Mouse') 
