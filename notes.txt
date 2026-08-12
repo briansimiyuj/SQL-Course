@@ -1,10 +1,9 @@
-Unique constraint enable us to ensure that no duplicate values are entered in a column.
+Not null constraint enables us to prevent null values in the column. To add a not null constraint, we use:
+    `ALTER TABLE $table_name
+    MODIFY $column_name $data_type NOT NULL;`
 
-If we want to add a unique constraint to a column, we can use the following:
-    `CREATE TABLE $table_name(
-
-        $column_name $data_type UNIQUE, 
-
-    )`
-
-If we add same column name to the same table, it will throw an error.
+To create a table with a not null constraint, we use:
+    `CREATE TABLE $table_name (
+        $column_name $data_type NOT NULL,
+        ...
+    );`
