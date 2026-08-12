@@ -1,14 +1,8 @@
-To get the current date; we use:
-    `CURRENT_DATE()`
+Unique constraint enable us to ensure that no duplicate values are entered in a column.
 
-To get the current time; we use:
-    `CURRENT_TIME()`
+If we want to add a unique constraint to a column, we can use the following:
+    `CREATE TABLE $table_name(
 
-To get the current date and time; we use:
-    `CURRENT_TIMESTAMP()`
+        $column_name $data_type UNIQUE, 
 
-To get the yesterday's date; we use:
-    `CURRENT_DATE() - 1`
-
-To get the tomorrow's date; we use:
-    `CURRENT_DATE() + 1`
+    )`

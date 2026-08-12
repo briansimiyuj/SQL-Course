@@ -1,3 +1,7 @@
-INSERT INTO test
+CREATE TABLE products(
 
-VALUES(CURRENT_DATE(), CURRENT_TIME(), CURRENT_TIMESTAMP());
+    product_id INT, 
+    product_name VARCHAR(25) UNIQUE,
+    product_price DECIMAL(4, 2),
+
+)
