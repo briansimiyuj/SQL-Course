@@ -1,15 +1,14 @@
-Let's say we deleted some data from the table by mistake, if we want to restore it, we can use the following command:
-    `SET AUTOCOMMIT = OFF;`
+To get the current date; we use:
+    `CURRENT_DATE()`
 
-This creates a transaction that allows us to undo any changes we make to the database. 
+To get the current time; we use:
+    `CURRENT_TIME()`
 
-To undo the changes, we can use the following command:
-    `ROLLBACK;`
+To get the current date and time; we use:
+    `CURRENT_TIMESTAMP()`
 
-This will undo all the changes made in the current transaction and restore the database to its previous state.
+To get the yesterday's date; we use:
+    `CURRENT_DATE() - 1`
 
-If we want save the changes permanently, we can use the following command:
-    `COMMIT;`
-
-This will save all the changes made in the current transaction and make them permanent.
-
+To get the tomorrow's date; we use:
+    `CURRENT_DATE() + 1`
